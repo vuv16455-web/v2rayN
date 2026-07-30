@@ -271,9 +271,9 @@
                                 </MenuItem.Header>
                             </MenuItem>
                         </Menu>
-                        <Separator />
+                      <!--   <Separator />
                         <Menu Margin="0,1" Style="{StaticResource ToolbarMenu}">
-                        <!--    <MenuItem
+                           <MenuItem
                                 x:Name="menuPromotion"
                                 Padding="{StaticResource MarginLeftRight8}"
                                 AutomationProperties.Name="{x:Static resx:ResUI.menuPromotion}">
@@ -286,8 +286,8 @@
                                         <TextBlock Text="{x:Static resx:ResUI.menuPromotion}" />
                                     </StackPanel>
                                 </MenuItem.Header>
-                            </MenuItem> -->
-                        </Menu>
+                            </MenuItem> 
+                        </Menu>  -->
                         <Separator />
                         <Menu Margin="0,1" Style="{StaticResource ToolbarMenu}">
                             <MenuItem
