@@ -314,13 +314,13 @@
                             <ContentControl x:Name="pbTheme" />
                         </materialDesign:PopupBox>
 
-                        <Button
+                     <!--   <Button
                             x:Name="btnNewUpdate"
                             Margin="{StaticResource MarginLeftRight8}"
                             Content="{x:Static resx:ResUI.menuNewUpdate}"
                             Style="{StaticResource DefButton}"
-                            Visibility="Hidden" />
-                    </ToolBar>
+                            Visibility="Hidden" />    -->
+                    </ToolBar>    
                 </ToolBarTray>
 
                 <ContentControl x:Name="contentStatusBarView" DockPanel.Dock="Bottom" />
