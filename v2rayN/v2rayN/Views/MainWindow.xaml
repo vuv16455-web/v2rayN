@@ -314,12 +314,12 @@
                             <ContentControl x:Name="pbTheme" />
                         </materialDesign:PopupBox>
 
-                     <!--   <Button
+                     <Button
                             x:Name="btnNewUpdate"
                             Margin="{StaticResource MarginLeftRight8}"
                             Content="{x:Static resx:ResUI.menuNewUpdate}"
                             Style="{StaticResource DefButton}"
-                            Visibility="Hidden" />    -->
+                            Visibility="Collapsed" />>
                     </ToolBar>    
                 </ToolBarTray>
 
