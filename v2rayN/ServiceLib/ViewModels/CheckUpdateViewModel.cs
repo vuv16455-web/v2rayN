@@ -120,6 +120,7 @@ public class CheckUpdateViewModel : MyReactiveObject
 
     private async Task CheckOnlyTask()
     {
+        return;
         await SaveSelectedCoreTypes();
 
         for (var k = CheckUpdateModels.Count - 1; k >= 0; k--)
@@ -159,6 +160,7 @@ public class CheckUpdateViewModel : MyReactiveObject
 
     private async Task CheckUpdateTask()
     {
+        return;
         _lstUpdated.Clear();
         _lstUpdated = CheckUpdateModels
             .Where(x => x.IsSelected == true)
